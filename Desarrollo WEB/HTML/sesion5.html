@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        // Prueba de javascript
+        alert("Prueba javascript");
+        function sumar() {
+            var s1= document.getElementById("numero 1").value;
+            var s2= document.getElementById("numero 2").value;
+            var result= parseInt(s1)+parseInt(s2);
+            alert("La suma es: "+ result);
+        }
+
+
+    </script>
+    <title>Document</title>
+</head>
+<body>
+    <h1>
+        Página con js
+    </h1>
+    <main>
+        <form action="sesion5.html" enctype="text/plain" method="GET" autocomplete="on">
+            <label for="numero"> numero 1</label>
+            <input type="text" name="num1" id="numero 1" placeholder="Ingrese numero 1">
+            <label for="numero2"> numero 2</label>
+            <input type="text" name="num2" id="numero 2" placeholder="ngrese numero 2">
+            <input type="button" value="Calcular suma" onclick="sumar()">
+            <label for="result">Resultado</label>
+            <input type="text" name="r" id="Resultado">
+            <h1> Comida cada día de la semana </h1>
+            <!-- pattern="[a-zA-ZñÑ]" Se utiliza para que un BOX reciba las letras especificadas--> 
+            <table>
+                <thead>
+                    <tr>
+                        <th>Lunes</th>
+                        <th>Martes</th>
+                        <th>Miércoles</th>
+                    </tr>
+                </thead>
+                <tbody> 
+                    <tr> <!-- Comida de cada día-->
+                        <td>Sancocho</td>
+                        <td>Arroz</td>
+                        <td>Sopa</td>
+                    </tr>
+                    <tr>
+                        <td>Fríjoles</td>
+                        <td>Carne</td>
+                            
+                    </tr>
+                    <tr>
+                        <td>Carne</td>
+                        <td>Sancocho</td>
+                        <td>Arroz</td>
+                    </tr>
+                    <tr>
+                        <td>Pollo</td>
+                        <td>Fríjoles</td>
+                        <td>Carne</td>
+                    </tr>
+                    <tr>
+                        <td>Salchipapas</td>
+                        <td>Carne</td>
+                        <td>Sancocho</td>
+                    </tr>
+                    <tr>
+                        <td>Hamburguesa</td>
+                        <td>Pollo</td>
+                        <td>Fríjoles</td>
+                    </tr>
+                    <tr>
+                        <td>Arroz con pollo</td>
+                        <td>Pollo</td>
+                        <td>Fríjoles</td>
+                    </tr>   
+                    <tr>
+                        <td colspan="3" align="center"> <input type="submit" name="enviar" value="Ir a página 2"></td>
+                    </tr>
+                    <!-- Colspan une columnas -->
+                </tbody>                 
+            </table>
+        
+        <section>
+            <span>
+                <h2>Tipos de comida</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum laudantium alias nulla dolorum fuga debitis nesciunt, recusandae qui ad molestias, ipsam cupiditate aliquid. Debitis at molestias esse illum voluptatem reiciendis?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta unde voluptates cum a similique dignissimos optio officiis illum, voluptatibus commodi nam repellat sint ullam repudiandae harum quo. Illo, distinctio ad?
+
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus natus perferendis impedit, sed voluptatum labore eveniet reprehenderit architecto mollitia molestiae velit facere enim sequi, repudiandae sit odit quia tempore vitae.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem consequuntur voluptate quibusdam assumenda, at esse veniam iure facilis quis hic maiores ipsa nobis amet adipisci enim! Ipsa quos cum natus.
+                </p>
+            </span>
+            <div>
+                <h2>Tipos de frutas</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum laudantium alias nulla dolorum fuga debitis nesciunt, recusandae qui ad molestias, ipsam cupiditate aliquid. Debitis at molestias esse illum voluptatem reiciendis?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta unde voluptates cum a similique dignissimos optio officiis illum, voluptatibus commodi nam repellat sint ullam repudiandae harum quo. Illo, distinctio ad?
+
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus natus perferendis impedit, sed voluptatum labore eveniet reprehenderit architecto mollitia molestiae velit facere enim sequi, repudiandae sit odit quia tempore vitae.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem consequuntur voluptate quibusdam assumenda, at esse veniam iure facilis quis hic maiores ipsa nobis amet adipisci enim! Ipsa quos cum natus.
+                </p>
+
+            </div>
+        </section>
+        
+        
+        
+        
+        
+        
+        
+        
+        </form>
+    </main>
+
+</body>
+</html>

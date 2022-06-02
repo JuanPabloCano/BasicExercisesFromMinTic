@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/Js/ejercicio1.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <h1>
+            Producto
+        </h1>
+        <form method="GET" name="formPro" action="#">
+            <label for="nombreArticulo">Nombre del artículo</label>
+            <input type="text" name="nombreA" id="nombreArticulo" placeholder="Ingrese el nombre del producto"> <br>
+            <label for="valor">Valor del artículo</label>
+            <input type="text" name="valor" id="valor" placeholder="Ingrese el valor del producto"> <br>
+            <label for="cantidadA">Cantidad del artículo</label>
+            <input type="text" name="cantidad" id="cantidadA" placeholder="Ingrese la cantidad del producto"> <br>
+            <label for="subtotal">Subtotal del artículo</label>
+            <input type="text" name="subtotal" id="subtotal" disabled> <br>
+            <label for="iva">Iva del artículo</label>
+            <input type="text" name="iva" id="iva" disabled> <br>
+            <label for="total">Total</label>
+            <input type="text" name="total" id="total" disabled> <br>
+            <input type="button" value="Calcular total" onclick="totalR()">
+        </form>
+    </main>
+</body>
+</html>

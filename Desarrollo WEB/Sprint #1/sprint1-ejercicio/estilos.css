@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.form-registro {
+    width: 400px;
+    height: 300px;
+    margin: 20px;
+    background: #fdfdfd;
+    text-align: left;
+    border-radius: 10px;
+    font-size: 15px;
+    
+}
+.form-registro form {
+    margin-left: 50px;
+}
+
+
+.form-logo {
+    width: 600px;
+    justify-content: space-evenly;
+    height: 400px;
+    margin: 10px;
+    background: #fff; 
+    border-radius: 20px;
+    
+    
+}
+
+.form-logo >h2 {
+    background:rgb(88, 163, 3);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 60px;
+    font-size: 30px;
+    text-align: left;
+    padding: 10px 0 10px 20px;
+}
+
+h3 {
+    background: #0efd06;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 35px;
+    font-size: medium;
+    padding: 10px 0 0 0;
+  
+}
+
+.control {
+    width: 70%;
+    margin: 10px 0 15px 0;
+    background: #c4c2c2;
+    border-radius: 5px;
+    height: 30px;
+    border: none;
+}
+
+.form-registro  select {
+    border-radius: 5px;
+    background: #c4c2c2;
+    width: 70%;
+    height: 30px;
+    border: none;
+    margin: 10px 0 15px 0;
+}
+#btn-registrar {
+    width: 35%;
+    height: 30px;
+    background: #0efd06;
+    border-radius: 10px;
+    margin-left: 50px;
+    border: none;
+
+}
+footer {
+    background: rgb(24, 191, 29);
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 30px;
+    margin-top: 100px;
+
+}
+
+/* login */
+
+.login {
+    width: 400px;
+    height: 300px;
+    margin: 20px;
+    background: #fdfdfd;
+    text-align: left;
+    border: solid 1px;
+    border-radius: 20px;  
+}
+.login h2 {
+    text-align: center;
+}
+#form-login {
+    margin: 50px;
+    
+}
+#form-login #user-name {
+    border-radius: 10px;
+    background: #c4c2c2;
+    width: 90%;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    height: 30px;
+}
+#form-login #contrasena {
+    border-radius: 20px;
+    background: #c4c2c2;
+    width: 90%;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    height: 30px;
+}
+#form-login #btn-submit-form {
+    border-radius: 20px;
+    background: #0efd06;
+    align-items: center;
+    width: 60%;
+    height: 25px;
+    margin-left: 50px;
+    
+}
+
+
